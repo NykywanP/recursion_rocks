@@ -7,8 +7,16 @@
 # Represent the two outcomes of each flip as "H" or "T"
 
 def coin_flips(n):
-    # Write code here
-    pass
+    if n > 0:
+        results = []
+        for r in coin:
+            for 
+                results.append(r+o)
 
-# print(coinFlips(2)) 
+        coin_flips(n - 1)
+
+        return results
+
+
+print(coin_flips(2))
 # => ["HH", "HT", "TH", "TT"]
